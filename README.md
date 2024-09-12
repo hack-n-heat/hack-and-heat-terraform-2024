@@ -44,3 +44,6 @@ Welcome to the workshop. If you haven't already followed the initial setup that 
 ## Task 5 - Data Sources - bucket.tf
 - 5.1 Create a data source for a GCS Bucket and use the following already existing bucket in our project: `hack-and-heat-2024-task-5`
 - 5.2 Upload this file to the bucket with your name prefixed
+
+## Clean Up 🧹
+Be nice and clean up your resources after the workshop. Use `terraform destroy` to destroy all resources that are currently tracked by your state.
