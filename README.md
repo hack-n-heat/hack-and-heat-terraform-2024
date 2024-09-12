@@ -34,6 +34,7 @@ Welcome to the workshop. If you haven't already followed the initial setup that 
 - 3.5 In the outputs.tf file in the module folder define the self links of the resources
   
 ## Task 4 - HCP Terraform and Remote State
+- 4.0 Destroy your current infrastructure using `terraform destroy`as we will now spin up the environment using HCP Terraform.
 - 4.1 Delete your `sa_key.json`. It is not best practice to authorize via service account keys that fly around ✈️.
 - 4.2 Follow the TFE_SETUP.md and connect your repository to HCP Terraform.
 - 4.3 Instead of using `terraform plan` and `terraform apply` locally, push your code to the repository and follow the triggered GitHub action. 
